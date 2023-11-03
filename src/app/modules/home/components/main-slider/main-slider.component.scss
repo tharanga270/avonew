@@ -1,0 +1,129 @@
+@import "/src/styles.scss";
+
+.img-cmn {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 625px;
+  //height: 605px;
+}
+.img-1 {
+  background-image: url("../../../../../assets/main-slider/bg_1.jpg.webp");
+}
+.img-2 {
+  background-image: url("../../../../../assets/main-slider/bg_2.jpg.webp");
+}
+
+.main-slider-section:before {
+  width: 65%;
+  left: 0;
+  -ms-transform: matrix(1, 0.102, 0, 2, 0, 0);
+  -webkit-transform: matrix(1, 0.102, 0, 2, 0, 0);
+  transform: matrix(1, 0.102, 0, 2, 0, 0);
+}
+
+.main-slider-section:after,
+.main-slider-section:before {
+  position: absolute;
+  content: "";
+  height: 50px;
+  background: $main-slider-color-1 !important;
+  z-index: 2;
+  bottom: -25px;
+}
+
+.main-slider-section:after {
+  width: 35%;
+  right: 0;
+  -ms-transform: matrix(1, -0.19, 0, 2, 0, 0);
+  -webkit-transform: matrix(1, -0.19, 0, 2, 0, 0);
+  transform: matrix(1, -0.19, 0, 2, 0, 0);
+}
+.img-cmn .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.2;
+  z-index: 0;
+  background: $main-slider-color-2;
+}
+.img-cmn .container {
+  padding-top: 180px;
+}
+.img-cmn .container .row {
+  position: relative;
+  //border: 1px solid white;
+}
+
+.count-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14%;
+  text-align: right;
+}
+.count-number .number {
+  font-size: 40px;
+  font-weight: 800;
+  color: $main-slider-color-1;
+  margin-bottom: 0;
+  padding-right: 15px;
+}
+.count-number:after {
+  position: absolute;
+  top: 9px;
+  right: 0;
+  width: 5px;
+  height: 30px;
+  content: "";
+  background: $main-slider-color-3;
+}
+.count-number p {
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.5;
+}
+.img-cmn .text {
+  width: 40%;
+  z-index: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+.img-cmn .text h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: $main-slider-color-1;
+  line-height: 1.1;
+  font-weight: 900;
+  position: relative;
+}
+.img-cmn .text p {
+  line-height: 1.5 !important;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+.img-cmn .slider-rec-btn {
+  background: $main-slider-color-3 !important;
+  border: 1px solid $main-slider-color-3 !important;
+  color: $main-slider-color-1 !important;
+  font-size: 14px;
+  padding: 17px;
+}
+.img-cmn .img-video {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: $main-slider-color-3;
+  -webkit-animation: pulse 2s infinite !important;
+  animation: pulse 2s infinite !important;
+  position: absolute;
+  bottom: -35%;
+  right: 35%;
+  margin-right: -30px;
+  text-decoration: none;
+}
+.img-cmn .img-video span {
+  color: $main-slider-color-2;
+  font-size: 20px;
+}

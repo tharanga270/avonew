@@ -1,0 +1,182 @@
+@import "./varibles.scss";
+@import "./mymixin.scss";
+
+/*====start:common scss====== */
+body {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  line-height: 1.8;
+}
+.container {
+  max-width: 1000px;
+}
+/*====end:common scss====== */
+
+/*====start:media quires scss====== */
+@media only screen and (max-width: 1200px) {
+  /*start:main slider section*/
+  .img-cmn {
+    height: 538px;
+    // height: 580px;
+    //height: 545px;
+  }
+  .img-cmn .container {
+    padding-top: 130px;
+  }
+  .img-cmn .img-video {
+    bottom: -27%;
+  }
+  /*end:main slider section*/
+}
+
+@media only screen and (max-width: 1024px) {
+  /*start:main slider section*/
+  .img-cmn .container {
+    padding-top: 120px;
+  }
+  .img-cmn .img-video {
+    bottom: -27%;
+  }
+  /*end:main slider section*/
+}
+
+@media only screen and (max-width: 991.98px) {
+  /*start:header section*/
+
+  // .main-nav {
+  //   background: #000000 !important;
+  //   position: relative;
+  //   top: 0;
+  // }
+
+  /*end:header section*/
+
+  /*start:main slider section*/
+  .img-cmn .text {
+    width: 60%;
+  }
+  .img-cmn .text h1 {
+    font-size: 30px;
+  }
+  .img-cmn .container {
+    padding-top: 170px;
+  }
+  .img-cmn .img-video {
+    bottom: -43%;
+    right: 36%;
+  }
+  /*end:main slider section*/
+}
+
+@media only screen and (max-width: 767.98px) {
+  /*start:main slider section*/
+  .img-cmn .text {
+    width: 82%;
+    margin-bottom: 4em;
+  }
+  .img-cmn .text h1 {
+    font-size: 22px;
+    text-transform: capitalize;
+  }
+  .img-cmn .slider-rec-btn {
+    padding: 9px;
+  }
+  .count-number {
+    position: relative;
+    width: 50%;
+    text-align: left;
+    font-size: 14px;
+  }
+  .count-number .number {
+    padding-left: 15px;
+    padding-right: 0;
+    font-size: 26px;
+  }
+  .count-number:after {
+    left: 0;
+    top: 0;
+  }
+  .img-cmn .img-video {
+    bottom: -8%;
+  }
+  /*end:main slider section*/
+
+  /*start:about-us section*/
+  .about-us-section h2 {
+    font-size: 28px;
+  }
+  .about-us-section .services {
+    margin-bottom: 40px;
+  }
+  /*end:about-us section*/
+
+  /*start:about us welcome section*/
+  .wrap-about .img-about {
+    height: 350px;
+    margin-bottom: 30px;
+  }
+  /*end:about us welcome section*/
+
+  /*start:our-works section*/
+  .our-works-section {
+    padding-top: 6em;
+  }
+  .heading-section h2 {
+    font-size: 28px;
+  }
+  .portfolio-wrap .text h2 {
+    font-size: 9vw;
+  }
+  .portfolio-wrap {
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .ftco-section {
+    padding: 6em 0;
+  }
+  /*end:our-works section*/
+
+  /*start:clients-says section*/
+  .clients-says-section {
+    padding: 6em 0;
+  }
+  .clients-says-section .heading-section h2 {
+    font-size: 28px;
+  }
+  /*end:clients-says section*/
+
+  /*start:recent-blog section*/
+  .recent-blog-section {
+    //padding: 6em 0;
+    padding-bottom: 15em;
+  }
+  .recent-blog-section .blog-entry {
+    margin-bottom: 30px;
+  }
+  /*end:recent-blog section*/
+}
+@media only screen and (max-width: 425px) {
+  /*start:main slider section*/
+  .img-cmn .container {
+    padding-top: 120px;
+  }
+  .img-cmn .img-video {
+    bottom: -4%;
+  }
+  /*end:main slider section*/
+
+  /*start:recent-blog section*/
+  .recent-blog-section {
+    //padding: 6em 0;
+    padding-top: 6em;
+  }
+  /*end:recent-blog section*/
+}
+
+@media only screen and (max-width: 375px) {
+  /*start:main slider section*/
+  .img-cmn .img-video {
+    bottom: 0;
+  }
+  /*end:main slider section*/
+}
+/*====end:media quires scss====== */

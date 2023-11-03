@@ -1,0 +1,76 @@
+@import "/src/styles.scss";
+
+.footer-section {
+  font-size: 16px;
+  padding: 7em 0;
+  background: $footer-color-1;
+  position: relative;
+}
+.ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
+  color: $footer-color-2;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.ftco-footer p {
+  color: $footer-color-3;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.ftco-footer .ftco-footer-widget ul li {
+  color: $footer-color-4;
+}
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+.ftco-footer .ftco-footer-widget ul li a {
+  color: $footer-color-4;
+  text-decoration: none;
+}
+.ftco-footer-social li a {
+  height: 40px;
+  width: 40px;
+  display: block;
+  background: $footer-color-5;
+  border-radius: 50%;
+  position: relative;
+}
+.ftco-footer .ftco-footer-widget ul li a span {
+  color: $footer-color-4;
+  font-size: 14px;
+}
+.ftco-footer-social li a span {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.block-23 ul {
+  padding: 0;
+  list-style: none;
+}
+.block-23 ul li,
+.block-23 ul li > a {
+  display: table;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.block-23 ul li .icon {
+  width: 40px;
+  padding-top: 2px;
+}
+.block-23 ul li .icon,
+.block-23 ul li .text {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/*====================*/

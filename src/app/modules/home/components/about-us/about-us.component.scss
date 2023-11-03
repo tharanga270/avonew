@@ -1,0 +1,92 @@
+@import "/src/styles.scss";
+
+.about-us-section {
+  padding: 6em 0;
+  position: relative;
+  z-index: 0;
+}
+.about-us-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.about-us-section .services {
+  padding: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  //border: 1px solid red;
+}
+.about-us-section .services .icon {
+  line-height: 1.3;
+  position: relative;
+  z-index: 0;
+  margin: 0 auto;
+  width: 100px;
+}
+.about-us-section .about-icon {
+  font-size: 60px;
+  color: $about-us-color-1;
+}
+.about-us-section .services .media-body h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: $about-us-color-1;
+  letter-spacing: 2px;
+}
+/*start:about us welcome section*/
+.wrap-about .img-about {
+  background-image: url("../../../../../assets/about-us/about.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+.wrap-about h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.wrap-about p {
+  color: $about-us-color-2;
+}
+.wrap-about .btn-view-all-projects {
+  background: $about-us-color-3;
+  border: 1px solid $about-us-color-3;
+  color: $about-us-color-4;
+  cursor: pointer;
+}
+/*end:about us welcome section*/
+
+/*start:about us seo section*/
+.wrap-seo .services-2 span {
+  position: relative;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 1;
+  color: $about-us-color-3;
+}
+.wrap-seo .services-2 span:after {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  content: "";
+  width: 100%;
+  background: $about-us-color-5;
+}
+.wrap-seo .services-2 .text {
+  padding-left: 10px;
+}
+.wrap-seo .services-2 h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.3;
+}
+.wrap-seo .services-2 .text p {
+  color: $about-us-color-2;
+}
+/*end:about us seo section*/

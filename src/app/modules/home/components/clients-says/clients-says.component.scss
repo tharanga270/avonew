@@ -1,0 +1,97 @@
+@import "/src/styles.scss";
+
+.clients-says-section {
+  padding: 12em 0;
+  position: relative;
+  z-index: 0;
+}
+.clients-says-section .heading-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+/*======================*/
+.testimony-wrap {
+  display: block;
+  position: relative;
+  background: $clients-says-color-1;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+// .testimony-section .owl-carousel .owl-stage-outer {
+//     padding: 1em 0 2em 0;
+//     position: relative;
+// }
+.testimony-wrap .my-qute {
+  color: $clients-says-color-2;
+  font-size: 30px;
+  position: absolute;
+  top: -15px;
+  left: 20px;
+}
+.testimony-wrap .user-comment {
+  color: $clients-says-color-3;
+}
+.testimony-wrap .user-1 {
+  background-image: url("../../../../../assets/our-works/person_1.jpg.webp");
+}
+.testimony-wrap .user-2 {
+  background-image: url("../../../../../assets/our-works/person_2.jpg.webp");
+}
+.testimony-wrap .user-3 {
+  background-image: url("../../../../../assets/our-works/person_3.jpg.webp");
+}
+.testimony-wrap .user-img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.testimony-wrap .name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0;
+  color: $clients-says-color-4;
+  letter-spacing: 2px;
+}
+.testimony-wrap .position {
+  font-size: 16px;
+  color: $clients-says-color-5;
+}
+.clients-says-section .owl-carousel .owl-stage-outer {
+  padding: 1em 0 1em 0;
+  position: relative;
+}
+.clients-says-section .owl-theme .owl-dots .owl-dot.active span {
+  background: $clients-says-color-6;
+}
+.clients-says-section .owl-dots .owl-dot.active:after {
+  border: 1px solid $clients-says-color-2 !important;
+}
+/*==============banner====================*/
+.clients-says-section .banner-img {
+  background-image: url("../../../../../assets/main-slider/bg_1.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.clients-says-section .intro span {
+  color: $clients-says-color-2;
+}
+.clients-says-section .intro h2 {
+  font-size: 30px;
+  color: $clients-says-color-7;
+  line-height: 1.2;
+}
+.clients-says-section .intro .btn-get-started {
+  background: $clients-says-color-2 !important;
+  border: 1px solid $clients-says-color-2 !important;
+  color: $clients-says-color-7 !important;
+  cursor: pointer;
+}
